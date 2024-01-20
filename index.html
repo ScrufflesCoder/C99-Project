@@ -1,0 +1,59 @@
+<html>
+    <head>
+       <title>Collage Web App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+  
+<link href="style.css" rel="stylesheet">
+
+</head>
+
+<body id="body">
+    <div class="container">
+        <center>
+            <h1 class="cwaheading">Collage Web App
+                <img id="logo.image" src="logo.jpeg">
+            </h1>
+            <hr>
+            <h4 style="color: red;">Please allow to all pop-ups that appear on your screen - microphone and camera access. </h4>
+            <hr>
+            <br>
+            <div class="form-group">
+            <h3 class="txt"> To activate webcam, clearly say, "Take my selfie."</h3>
+            <label class="txt"> Here's what the computer heard you say: </label>
+            <textarea class="form-control" id="textbox" readonly="true"></textarea>
+            </div>
+            <button class="btn btn-primary" onclick="start()">Start</button>
+            <p class="txt">Press the Start Button to take your photo!</p>
+
+            <label class="txt">Your webcam: </label>
+            <div id="camera"></div>
+            <br>
+            <hr>
+            <label class="txt">All images will be displayed here.</label>
+            <div id="result_row">
+            <div class="column" id="result1">
+                <img class="img" src="img1.jpeg">
+            </div>
+            <div class="column" id="result2">
+                <img class="img" src="img2.webp">
+            </div>
+            <div class="column" id="result3">
+                <img class="img" src="img3.jpg">
+            </div>
+            </div>
+        </center>
+        <br><br><br>
+        <div class="copyright">Developed by Nishuka</div>
+    </div>
+</body>

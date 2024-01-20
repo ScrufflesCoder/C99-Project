@@ -1,0 +1,31 @@
+.txt{
+    font-family: 'Knewave', system-ui;
+}
+.cwaheading{
+    font-family: 'Cedarville Cursive', cursive;
+}
+.img{
+    width: 30%;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 6px 8px grey;
+}
+.copyright{
+    position: fixed;
+    color: blue;
+    background-color: beige;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+}
+.column{
+    display: inline;
+    padding: 10px;
+}
+img:hover{
+    border-radius: 140px;
+}
+body{
+    background: linear-gradient(#4680db, #513efa, #c341f2);
+}
